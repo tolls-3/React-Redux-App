@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-        <h1>Fetch your Dogs List</h1>
+        <h1>Fetch Random Dogs Picture</h1>
       </nav>
       <DogList />
     </div>
