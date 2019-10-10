@@ -8,7 +8,9 @@ function App() {
   //console.log(props)
   return (
     <div className="App">
-      <header className="App-header">Fetch your Dogs List</header>
+      <nav className="navbar">
+        <h1>Fetch your Dogs List</h1>
+      </nav>
       <DogList />
     </div>
   );

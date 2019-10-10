@@ -3,13 +3,6 @@ import axios from "axios";
 
 const dogApi = "https://dog.ceo/api/breeds/image/random";
 
-// export function fetchDog(dogs){
-//     return{
-//         type: types.FETCH_DOG_START,
-//         payload:dogs,
-//     }
-// }
-
 export function getDogs() {
   return function(dispatch) {
     axios
